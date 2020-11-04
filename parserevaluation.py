@@ -6,8 +6,8 @@ def calculate(expression):   # Evaluate function to parse and process result
     try:
         p = Parser(expression)
         value = p.getValue()
-    except Exception as (exptn): 
-        notify = exptn.message
+    except Exception as (exp): 
+        notify = exp.message
         raise Exception(notify)
 
     # Return input + answer 
