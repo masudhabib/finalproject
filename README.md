@@ -1,2 +1,12 @@
-# finalproject
-final_project_parser
+# Math parser project
+
+1) I have created 2 python files, a) mathparser.py and b) parserevaluation.py for my Parser project.
+
+2) parserevaluation.py file has a driver code which will evaluate function from mathparser.py file and process its result
+
+3) mathparser.py is main program which takes an expression as string. Then it converts it ti char array. It will check each char in string and check if it is a number or an operator.
+
+4) This program supports four basic math operations, functions, parentheses, and variables.
+
+5) In each iteration we check for white space and skip it every time.
+
