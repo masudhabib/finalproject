@@ -1,6 +1,6 @@
-# Math parser project
+# Math parser project  ( IDE : VSCODE , Python version 2.7)
 
-1) I have created 2 python files, a) mathparser.py and b) parserevaluation.py for my Parser project.
+1) I have created 2 python files , a) mathparser.py and b) parserevaluation.py for my Parser project.
 
 2) parserevaluation.py file has a driver code which will evaluate function from mathparser.py file and process its result
 
