@@ -141,5 +141,4 @@ class Parser:
             else:
                 raise Exception(
                     "Anticipating a digit at character " + str(self.index) + " but found a " + char)
-
         return float(strValue)
