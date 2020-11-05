@@ -12,7 +12,7 @@ class Parser:
         
         if self.hasNext(): # Exception if any more characters left in expression
             raise Exception(
-                "Unexpected character found: '" + self.peek() + "' at index " + str(self.index)
+                "Found an unexpected character: '" + self.peek() + "' at index " + str(self.index)
             )
         return value
 
@@ -67,7 +67,7 @@ class Parser:
                      
                 if denominator == 0:
                     raise Exception(
-                        "Divide by 0 exception (occured at index " + str(div_index) + ")"
+                        "Exception for dividing with 0 (occured at index " + str(div_index) + ")"
                     )
                 values.append(1.0 / denominator)
             else:
@@ -89,7 +89,7 @@ class Parser:
             
             if self.peek() != ')':
                 raise Exception(
-                    "No closing parenthesis found at character " + str(self.index)
+                    "Closing parenthesis not found " + str(self.index)
                 )
             self.index += 1
             return value
@@ -125,7 +125,7 @@ class Parser:
             if char == '.':
                 if decimal_found:
                     raise Exception(
-                        "Found an extra decimal at character " + str(self.index)
+                        "Found an additional decimal point " + str(self.index)
                     )
                 decimal_found = True
                 strValue += '.'
@@ -140,6 +140,6 @@ class Parser:
                 raise Exception("Unexpected end found")
             else:
                 raise Exception(
-                    "Expecting a number at character " + str(self.index) + " but found a " + char)
+                    "Anticipating a digit at character " + str(self.index) + " but found a " + char)
 
         return float(strValue)
