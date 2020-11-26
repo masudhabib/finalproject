@@ -8,5 +8,5 @@
 
 4) This program supports four basic math operations, functions, parentheses, and variables.
 
-5) In each iteration we check for white space and skip it every time.
+5) In each iteration we check for white space and skip it every time. Moreover, we have an exception for input data errors.
 
