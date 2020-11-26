@@ -4,7 +4,7 @@
 
 2) parserevaluation.py file has a driver code which will evaluate function from mathparser.py file and process its result
 
-3) mathparser.py is main program which takes an expression as string. Then it converts it ti char array. It will check each char in string and check if it is a number or an operator.
+3) mathparser.py is main program which takes an expression as string and then it converts it to char array. It will check each char in string and check if it is a number or an operator.
 
 4) This program supports four basic math operations, functions, parentheses, and variables.
 
