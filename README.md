@@ -26,6 +26,6 @@ You'll see the outputs for sample mathematical inputs.
 
 ##### Exception Handling Testing
 
-If you are running python2 then you can uncomment (remove # from #print) last line in  file "parserevaluation.py shown below or add your sample input to test Exeption Handling
+If you are running python2 then you can uncomment (remove # from #print) last line in  file "parserevaluation.py shown below or add your sample input to test Exception Handling
 
 #print (calculate("-(7 + 2..4) * 31")) 
