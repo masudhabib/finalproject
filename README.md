@@ -10,3 +10,22 @@
 
 5) In each iteration we check for white space and skip it every time. Moreover, we have an exception for input data errors.
 
+
+# Compiling from the source code
+
+### Pre-requisite for build/run
+
+- Any OS with Python2/ Pyhthon3 interpreter
+- Any Python IDE ( I used VSCode)
+
+#### Running the Program 
+Import project in VsCode or Pycharm and run the "parserevaluation.py"
+
+You'll see the outputs for sample mathematical inputs. 
+
+
+##### Exception Handiling Testing
+
+If you are running python2 then you can uncomment (remove # from #print) last line in  file "parserevaluation.py given below or add your sample input to test Exeption Handling
+
+"#print (calculate("-(7 + 2..4) * 31"))" 

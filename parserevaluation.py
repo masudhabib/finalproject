@@ -27,4 +27,4 @@ if __name__ == "__main__":
     print (calculate("6.0 / 5 * 16"))
     print (calculate("(5+7)*(1-5)"))
     # Now lets test our exception for an extra decimal point
-    print (calculate("-(7 + 2..4) * 31"))
+    # print (calculate("-(7 + 2..4) * 31"))    # Only For Python2 Interpreters
