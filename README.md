@@ -16,7 +16,7 @@
 ### Pre-requisite for build/run
 
 - Any OS with Python2/ Pyhthon3 interpreter
-- Any Python IDE ( I used VSCode)
+- Any Python IDE ( I used VSCode) 
 
 #### Running the Program 
 Import project in VsCode or Pycharm and run the "parserevaluation.py"
@@ -24,7 +24,7 @@ Import project in VsCode or Pycharm and run the "parserevaluation.py"
 You'll see the outputs for sample mathematical inputs. 
 
 
-##### Exception Handiling Testing
+##### Exception Handling Testing
 
 If you are running python2 then you can uncomment (remove # from #print) last line in  file "parserevaluation.py shown below or add your sample input to test Exeption Handling
 
